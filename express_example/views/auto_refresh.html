@@ -1,0 +1,12 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+function startRefresh() {
+    $.get('', function(data) {
+            $(document.body).html(data);
+            });
+}
+
+$(function() {
+        setTimeout(startRefresh, 15000);
+        });
+</script>

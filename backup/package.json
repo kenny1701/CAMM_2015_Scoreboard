@@ -1,0 +1,9 @@
+{
+    "name": "camm_2015_scoreboard",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*",
+        "body-parser": "*",
+        "jade": "*"
+    }
+}

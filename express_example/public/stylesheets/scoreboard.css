@@ -1,0 +1,59 @@
+body{
+    background: #0f0f0f;
+    color:white;
+    text-align:center;
+    cursor: none;
+    font-weight:600;
+    font-family: 'Titillium Web', sans-serif;t
+}
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:72px;
+    font-weight:900;
+    margin-bottom:0;
+    color: white;
+}
+#scoreboard{
+    line-height: 130%;
+    margin-left:auto;
+    margin-right:auto;
+    color: #ccc;
+    font-size:20px;
+}
+#scoreboard tr.nonq td:nth-child(8),
+#scoreboard tr.nonq td:nth-child(7),
+#scoreboard tr.nonq td:nth-child(6),
+#scoreboard tr.nonq td:nth-child(5),
+#scoreboard tr.nonq td:nth-child(4)
+{
+    opacity: 0;
+}
+#scoreboard tr td:nth-child(3),
+#scoreboard tr td:nth-child(2){
+    padding-left:20px;
+    padding-right:20px;
+}
+#scoreboard tr td:nth-child(2){
+    /*width:400px;*/
+}
+#scoreboard tr td:nth-child(1){
+    text-align:right;
+}
+#scoreboard tr:nth-child(1) td{
+    color: gold;
+}
+#queue{
+    font-size:20px;
+    float:left;
+    border-right: 1px solid white;
+    margin-right:30px;
+    padding-right:30px;
+    text-align:right;
+}
+#queue tr.queue-header{
+    font-size:30px;
+    font-weight:700;
+}
+.qual{
+    color:white;
+}
